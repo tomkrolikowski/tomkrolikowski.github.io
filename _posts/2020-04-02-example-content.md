@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Example content
+type: project
+image: snacbot.jpg
 ---
 
 

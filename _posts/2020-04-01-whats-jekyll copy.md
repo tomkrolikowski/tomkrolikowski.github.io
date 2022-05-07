@@ -1,7 +1,7 @@
 ---
 layout: post
-title: What's Jekyll?
-type: project
+title: research test
+type: research
 image: demo.jpg
 ---
 

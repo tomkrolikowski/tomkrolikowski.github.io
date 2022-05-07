@@ -1,23 +1,23 @@
 ---
-layout: default
-title: Home
+layout: page
+title: Projects
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url | absolute_url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-    <img src="/assets/img/{{post.image}}">
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+{% for post in site.posts %}
+  {% if post.type == "project" %}
+    <div class="post">
+      <h1 class="post-title">
+        <a href="{{ post.url | absolute_url }}">
+          {{ post.title }}
+        </a>
+      </h1>
+      <img src="/assets/img/{{post.image}}">
+      <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
+      {{ post.content }}
+    </div>
+  {% endif %}
+{% endfor %}
 
 <!-- <div class="pagination">
   {% if paginator.next_page %}

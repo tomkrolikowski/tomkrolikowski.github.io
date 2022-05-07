@@ -5,7 +5,7 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
-    <p>{{ site.description }}</p>
+    <!-- <p>{{ site.description }}</p> -->
   </div>
 
   <nav class="sidebar-nav">
@@ -24,15 +24,29 @@
         {% endif %}
       {% endif %}
     {% endfor %}
-
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-    <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+    <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Projects</a> -->
+    <!-- <a class="sidebar-nav-item{% if page.title == 'Research' %} active{% endif %}" href="{{ '/' | absolute_url }}">Research</a>
+    <a class="sidebar-nav-item{% if page.title == 'Projects' %} active{% endif %}" href="{{ '/' | absolute_url }}">Projects</a> -->
+    <!-- <span class="sidebar-nav-item">Currently v{{ site.version }}</span> -->
   </nav>
-
+  <!-- <p></p>
+  <div id="sidebar-item" style="text-align:center"> -->
+    <!-- contact icons go here --> 
+    <!-- <span class="fa fa-facebook-official fa-2x"></span>
+    <span class="fa fa-linkedin fa-2x"></span>
+    <span class="fa fa-github fa-2x"></span>
+  </div> -->
   <div class="sidebar-item">
-    <p>
-      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
-    </p>
+    <div id = "footer">
+      <div id="sidebar-item" style="text-align:center">
+        <!-- contact icons go here --> 
+        <span class="fa fa-facebook-official fa-2x"></span>
+        <span class="fa fa-linkedin fa-2x"></span>
+        <span class="fa fa-github fa-2x"></span>
+      </div>
+      <p>
+        &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+      </p>
+    </div>
   </div>
 </div>

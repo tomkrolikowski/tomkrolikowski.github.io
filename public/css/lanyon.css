@@ -295,6 +295,12 @@ a.sidebar-nav-item:focus {
 }
 
 
+#footer {
+  position:absolute;
+  bottom:0;
+  /* width:90%; */
+  height:60px;
+}
 /*
  * Posts and pages
  *
@@ -324,6 +330,9 @@ a.sidebar-nav-item:focus {
   margin-top: -.5rem;
   margin-bottom: 1rem;
   color: #9a9a9a;
+}
+.post-image{
+  border-radius: 8px;
 }
 
 /* Related posts */
