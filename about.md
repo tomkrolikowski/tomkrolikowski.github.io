@@ -3,27 +3,14 @@ layout: page
 title: About
 ---
 
-<p class="message">
+<!-- <p class="message">
   Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+</p> -->
+<img src="/assets/img/head_shot_about.jpg"      
+    class="center" />
+I'm a Ph.D student in Computer Science and Engineering at The University of Michigan where I'm advised by Alanson Sample and Ronald Dreslinski.
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+I received a bachelors of science in engineering from the University of Michigan
+in 2022 where my coursework comprised of robotics and computer. I enjoy creating novel embedded systems and using machine learning to make sense of the real world phenomena the device observes.
 
-There are currently two themes built on Poole:
-
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](https://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Atom](https://atom.io)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+**Contact:** tkroliko \[at\] umich \[dot\] edu
