@@ -21,4 +21,4 @@ From left to right, RGB image, ground-truth depth map, ResNet18 predicted depth 
 From left to right, RGB image, ground-truth depth map, ResNet18 predicted depth map, and UNet predicted depth examples from the DIODE outdoor data set.
 
 <div class="foot-icon"> 
-<a href="{{post.github}}"><span class="fa fa-github fa-2x" style="color:rgb(0, 0, 0);"></span><a>
+<a href="{{page.github}}"><span class="fa fa-github fa-2x" style="color:rgb(0, 0, 0);"></span><a>

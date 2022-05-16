@@ -4,7 +4,7 @@
  <title>Tom Krolikowski</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2022-05-16T18:29:45-04:00</updated>
+ <updated>2022-05-16T18:44:16-04:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name></name>
@@ -36,7 +36,7 @@ Three test cases. From left to right, RGB image, aligned depth map, k-means on D
 High level state machine of SNACBot’s workflow&lt;/p&gt;
 
 &lt;div class=&quot;foot-icon&quot;&gt; 
-&lt;a href=&quot;&quot;&gt;&lt;span class=&quot;fa fa-github fa-2x white&quot; style=&quot;text-align:center; color:rgb(0, 0, 0);&quot;&gt;&lt;/span&gt;&lt;a&gt;
+&lt;a href=&quot;https://github.com/hvak/SNACBot&quot;&gt;&lt;span class=&quot;fa fa-github fa-2x white&quot; style=&quot;text-align:center; color:rgb(0, 0, 0);&quot;&gt;&lt;/span&gt;&lt;a&gt;
 &lt;/a&gt;&lt;/a&gt;&lt;/div&gt;
 </content>
  </entry>
@@ -59,7 +59,7 @@ From left to right, RGB image, ground-truth depth map, ResNet18 predicted depth 
 From left to right, RGB image, ground-truth depth map, ResNet18 predicted depth map, and UNet predicted depth examples from the DIODE outdoor data set.&lt;/p&gt;
 
 &lt;div class=&quot;foot-icon&quot;&gt; 
-&lt;a href=&quot;&quot;&gt;&lt;span class=&quot;fa fa-github fa-2x&quot; style=&quot;color:rgb(0, 0, 0);&quot;&gt;&lt;/span&gt;&lt;a&gt;
+&lt;a href=&quot;https://github.com/lanbas/442-depth-estimation&quot;&gt;&lt;span class=&quot;fa fa-github fa-2x&quot; style=&quot;color:rgb(0, 0, 0);&quot;&gt;&lt;/span&gt;&lt;a&gt;
 &lt;/a&gt;&lt;/a&gt;&lt;/div&gt;
 </content>
  </entry>
