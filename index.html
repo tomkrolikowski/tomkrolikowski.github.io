@@ -13,8 +13,8 @@ title: Home
       </h1>
       <img src="/assets/img/{{post.image}}">
       <span class="post-date">{{ post.date | date_to_string }}</span>
-
-      {{ post.content }}
+      <!-- {{ page.sections['intro'] | textilize }} -->
+      {{ post.sections['intro'] | textilize }}
     </div>
   {% endif %}
 {% endfor %}
