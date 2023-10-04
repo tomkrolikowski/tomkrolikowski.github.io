@@ -11,10 +11,11 @@ title: Research
           {{ post.title }}
         </a>
       </h1>
-      <img src="/assets/img/{{post.image}}">
       <span class="post-date">{{ post.date | date_to_string }}</span>
+      <img src="/assets/img/{{post.image}}">
 
-      {{ post.content }}
+      <!-- {{ page.sections['intro'] | textilize }} -->
+
     </div>
   {% endif %}
 {% endfor %}

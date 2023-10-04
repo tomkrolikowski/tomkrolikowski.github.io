@@ -4,13 +4,22 @@
  <title>Tom Krolikowski</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2022-05-16T18:44:16-04:00</updated>
+ <updated>2023-10-04T10:19:50-04:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>BrushLens: Hardware Interaction Proxies for Accessible Touchscreen Interface Actuation</title>
+   <link href="http://localhost:4000/2023/10/04/brushlens/"/>
+   <updated>2023-10-04T00:00:00-04:00</updated>
+   <id>http://localhost:4000/2023/10/04/brushlens</id>
+   <content type="html">
+</content>
+ </entry>
  
  <entry>
    <title>SNACBot</title>
